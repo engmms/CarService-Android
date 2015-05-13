@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5eee3"
+    tools:context="com.ruhoon.jiayu.merchant.aboutjiayu.FeedbackActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_140_px" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="意见反馈"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_back_feedback"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_500_px"
+        android:layout_below="@+id/rl_title"
+        android:layout_marginLeft="@dimen/size_40_px"
+        android:layout_marginRight="@dimen/size_40_px"
+        android:layout_marginTop="@dimen/size_32_px"
+        android:background="@drawable/feedback_border"
+        android:hint="给驾遇一些建议，让我们更加努力~"
+        android:paddingLeft="@dimen/size_22_px"
+        android:paddingTop="@dimen/size_32_px"
+        android:textColor="#999999"
+        android:textSize="@dimen/text_46_px" 
+        android:gravity="left"/>
+
+    <Button
+        android:id="@+id/bt_commitFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_134_px"
+        android:layout_below="@+id/et_feedback"
+        android:layout_marginLeft="@dimen/size_40_px"
+        android:layout_marginRight="@dimen/size_40_px"
+        android:layout_marginTop="@dimen/size_60_px"
+        android:background="@drawable/feedback_button_border"
+        android:text="提交"
+        android:textColor="#ff8000"
+        android:textSize="@dimen/text_64_px" />
+
+</RelativeLayout>

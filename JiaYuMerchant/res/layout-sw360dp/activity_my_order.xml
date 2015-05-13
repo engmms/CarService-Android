@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruhoon.jiayu.merchant.activity.order.MyOrderActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_140_px" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="我的订单"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_back_myOrder"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_136_px"
+        android:layout_below="@+id/rl_title"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_uncompleteOrder"
+            android:layout_width="@dimen/size_315_px"
+            android:layout_height="@dimen/size_102_px"
+            android:layout_marginLeft="@dimen/size_36_px"
+            android:layout_marginTop="@dimen/size_14_px"
+            android:background="@drawable/bt_myorder_bg"
+            android:text="未完成订单"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_48_px" />
+
+        <Button
+            android:id="@+id/bt_completeOrder"
+            android:layout_width="@dimen/size_315_px"
+            android:layout_height="@dimen/size_102_px"
+            android:layout_marginLeft="@dimen/size_36_px"
+            android:layout_marginTop="@dimen/size_14_px"
+            android:background="#ffffff"
+            android:text="已完成订单"
+            android:textColor="#ff805b"
+            android:textSize="@dimen/text_48_px" />
+
+        <Button
+            android:id="@+id/bt_failOrder"
+            android:layout_width="@dimen/size_315_px"
+            android:layout_height="@dimen/size_102_px"
+            android:layout_marginLeft="@dimen/size_36_px"
+            android:layout_marginTop="@dimen/size_14_px"
+            android:background="#ffffff"
+            android:text="失效订单"
+            android:textColor="#ff805b"
+            android:textSize="@dimen/text_48_px" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_myOrder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_button" />
+
+</RelativeLayout>

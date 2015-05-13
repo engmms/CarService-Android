@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruhoon.jiayu.merchant.activity.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_function" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_function"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_166_px"
+        android:layout_alignParentBottom="true"
+        android:background="#f5eee3"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rl_home_homePager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_home_homePager"
+                android:layout_width="@dimen/size_76_px"
+                android:layout_height="@dimen/size_72_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/home_pager_press" />
+
+            <TextView
+                android:id="@+id/tv_homepager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_home_homePager"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_18_px"
+                android:text="首页"
+                android:textColor="@color/mainOrange"
+                android:textSize="@dimen/text_30_px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_home_chat"
+                android:layout_width="@dimen/size_76_px"
+                android:layout_height="@dimen/size_72_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/chat" />
+
+            <TextView
+                android:id="@+id/tv_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_home_chat"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_18_px"
+                android:text="聊聊"
+                android:textColor="@color/mainNormal"
+                android:textSize="@dimen/text_30_px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_home_personalCenter"
+                android:layout_width="@dimen/size_76_px"
+                android:layout_height="@dimen/size_72_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/personal_center" />
+
+            <TextView
+                android:id="@+id/tv_personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_home_personalCenter"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_18_px"
+                android:text="我的"
+                android:textColor="@color/mainNormal"
+                android:textSize="@dimen/text_30_px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

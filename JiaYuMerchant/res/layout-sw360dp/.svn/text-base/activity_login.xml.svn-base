@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5d8c5"
+    tools:context="com.ruhoon.jiayu.merchant.activity.LoginActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="@dimen/size_198_px"
+        android:layout_height="@dimen/size_222_px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size_250_px"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/et_userName"
+        android:layout_width="@dimen/size_800_px"
+        android:layout_height="@dimen/size_112_px"
+        android:layout_below="@+id/iv_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size_142_px"
+        android:background="#f9f9fa"
+        android:drawableLeft="@drawable/user"
+        android:gravity="center"
+        android:hint="请输入注册手机号码"
+        android:paddingLeft="@dimen/size_32_px"
+        android:textColor="#93815d"
+        android:textSize="@dimen/text_48_px" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="@dimen/size_800_px"
+        android:layout_height="@dimen/size_112_px"
+        android:layout_below="@+id/et_userName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size_94_px"
+        android:background="#f9f9fa"
+        android:drawableLeft="@drawable/password"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/size_32_px"
+        android:textColor="#93815d"
+        android:textSize="@dimen/text_48_px" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="@dimen/size_242_px"
+        android:layout_height="@dimen/size_246_px"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size_100_px"
+        android:background="@drawable/login_change" />
+
+    <Button
+        android:id="@+id/bt_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size_76_px"
+        android:background="#e5d8c5"
+        android:text="忘记密码"
+        android:textColor="#998965" />
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_forgot_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/size_60_px"
+        android:background="#e5d8c5"
+        android:text="注册"
+        android:textColor="#998965" />
+
+</RelativeLayout>

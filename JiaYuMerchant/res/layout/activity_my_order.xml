@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruhoon.jiayu.merchant.activity.order.MyOrderActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/bt_back_myOrder"
+        android:layout_width="@dimen/size_123_px"
+        android:layout_height="@dimen/size_140_px"
+        android:background="@drawable/bt_forgotpassword_back" />
+
+</RelativeLayout>

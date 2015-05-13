@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf5e8"
+    tools:context="com.ruhoon.jiayu.merchant.activity.ServiceEvaluateActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_140_px" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="服务评价"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_back_evaluate"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_135_px"
+        android:layout_below="@id/rl_title"
+        android:background="#ffffff" >
+
+        <Button
+            android:id="@+id/bt_apprasinalFrom"
+            android:layout_width="@dimen/size_472_px"
+            android:layout_height="@dimen/size_100_px"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/size_34_px"
+            android:layout_marginTop="@dimen/size_13_px"
+            android:background="@drawable/bt_evaluate_from"
+            android:text="来自车主的评价"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_50_px" />
+
+        <Button
+            android:id="@+id/bt_apprasinalTo"
+            android:layout_width="@dimen/size_472_px"
+            android:layout_height="@dimen/size_100_px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_34_px"
+            android:layout_marginTop="@dimen/size_13_px"
+            android:background="#ffffff"
+            android:text="给车主的评价"
+            android:textColor="#ff805b"
+            android:textSize="@dimen/text_50_px" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_evaluateViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_button" />
+
+</RelativeLayout>

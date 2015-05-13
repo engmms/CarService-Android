@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/android_jiake/!svn/ver/64/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android_jiake/!svn/ver/47/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/MainActivity.java
+END
+RegisterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android_jiake/!svn/ver/56/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/RegisterActivity.java
+END
+ServiceEvaluateActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android_jiake/!svn/ver/45/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/ServiceEvaluateActivity.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/android_jiake/!svn/ver/45/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/LoginActivity.java
+END
+ModificationPasswordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android_jiake/!svn/ver/50/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/ModificationPasswordActivity.java
+END
+RetrievePasswordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android_jiake/!svn/ver/47/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/RetrievePasswordActivity.java
+END
+ModificationPhoneActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android_jiake/!svn/ver/56/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/ModificationPhoneActivity.java
+END
+TermsOfServiceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android_jiake/!svn/ver/47/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/activity/TermsOfServiceActivity.java
+END

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5d8c5" >
+
+    <RelativeLayout
+        android:id="@+id/home_image_scorall"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_796_px"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/ll_function_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_image_scorall"
+        android:layout_marginTop="@dimen/size_152_px"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_getOrder"
+                android:layout_width="@dimen/size_127_px"
+                android:layout_height="@dimen/size_127_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_get_order" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_getOrder"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_30_px"
+                android:text="我要抢单"
+                android:textColor="#998965"
+                android:textSize="@dimen/text_40_px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_myItem"
+                android:layout_width="@dimen/size_127_px"
+                android:layout_height="@dimen/size_127_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_my_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_myItem"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_30_px"
+                android:text="我的项目"
+                android:textColor="#998965"
+                android:textSize="@dimen/text_40_px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_myOrder"
+                android:layout_width="@dimen/size_127_px"
+                android:layout_height="@dimen/size_127_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_my_order" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_myOrder"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_30_px"
+                android:text="我的订单"
+                android:textColor="#998965"
+                android:textSize="@dimen/text_40_px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_function_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_function_one"
+        android:layout_marginTop="@dimen/size_118_px"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_limitActivity"
+                android:layout_width="@dimen/size_127_px"
+                android:layout_height="@dimen/size_127_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_limittime_activity" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_limitActivity"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_30_px"
+                android:text="限时活动"
+                android:textColor="#998965"
+                android:textSize="@dimen/text_40_px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_evaluateService"
+                android:layout_width="@dimen/size_127_px"
+                android:layout_height="@dimen/size_127_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_evaluate_service" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_evaluateService"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_30_px"
+                android:text="服务评价"
+                android:textColor="#998965"
+                android:textSize="@dimen/text_40_px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/bt_userQuestion"
+                android:layout_width="@dimen/size_127_px"
+                android:layout_height="@dimen/size_127_px"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_users_question" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bt_userQuestion"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_30_px"
+                android:text="车友问答"
+                android:textColor="#998965"
+                android:textSize="@dimen/text_40_px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

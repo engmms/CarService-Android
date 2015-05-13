@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_34_px"
+        android:layout_marginTop="@dimen/size_50_px"
+        android:textColor="#fe9d3c"
+        android:textSize="@dimen/text_51_px" />
+
+    <RelativeLayout
+        android:id="@+id/rl_myitem_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_name"
+        android:layout_marginLeft="@dimen/size_34_px"
+        android:layout_marginTop="@dimen/size_42_px" >
+
+        <TextView
+            android:id="@+id/tv_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4a4a4a"
+            android:textSize="@dimen/text_40_px" />
+
+        <TextView
+            android:id="@+id/tv_item_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_156_px"
+            android:layout_toRightOf="@+id/tv_item_price"
+            android:textColor="#4a4a4a"
+            android:textSize="@dimen/text_40_px" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_item_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/size_38_px"
+        android:textColor="#ee152a"
+        android:textSize="@dimen/text_40_px" />
+
+    <TextView
+        android:id="@+id/item_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/rl_myitem_left"
+        android:layout_marginTop="@dimen/size_52_px"
+        android:background="@drawable/bg_09" />
+
+</RelativeLayout>

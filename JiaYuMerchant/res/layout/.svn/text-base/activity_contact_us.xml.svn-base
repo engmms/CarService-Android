@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf5e8"
+    tools:context="com.ruhoon.jiayu.merchant.aboutjiayu.ContactUsActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_140_px" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="联系我们"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_contact_back"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_RI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title"
+        android:layout_marginLeft="@dimen/size_60_px"
+        android:layout_marginTop="@dimen/size_64_px"
+        android:text="厦门日厚科技有限公司"
+        android:textColor="#4d4d4d"
+        android:textSize="@dimen/text_48_px" />
+
+    <TextView
+        android:id="@+id/tv_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_RI"
+        android:layout_marginLeft="@dimen/size_60_px"
+        android:layout_marginTop="@dimen/size_64_px"
+        android:text="电话:  0592-0000-000"
+        android:textColor="#4d4d4d"
+        android:textSize="@dimen/text_48_px" />
+
+    <TextView
+        android:id="@+id/tv_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tel"
+        android:layout_marginLeft="@dimen/size_60_px"
+        android:layout_marginTop="@dimen/size_64_px"
+        android:text="QQ:     000000000"
+        android:textColor="#4d4d4d"
+        android:textSize="@dimen/text_48_px" />
+
+    <RelativeLayout
+        android:id="@+id/rl_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_qq"
+        android:layout_marginLeft="@dimen/size_60_px"
+        android:layout_marginTop="@dimen/size_64_px" >
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="邮箱:"
+            android:textColor="#4d4d4d"
+            android:textSize="@dimen/text_48_px" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_email"
+            android:text="   kefu@rihou.com.cn"
+            android:textColor="#f8304c"
+            android:textSize="@dimen/text_48_px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_email"
+        android:layout_marginLeft="@dimen/size_60_px"
+        android:layout_marginTop="@dimen/size_64_px" >
+
+        <TextView
+            android:id="@+id/tv_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网址:"
+            android:textColor="#4d4d4d"
+            android:textSize="@dimen/text_48_px" />
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   www.rihoukeji.com"
+            android:textColor="#f8304c"
+            android:textSize="@dimen/text_48_px" 
+            android:layout_toRightOf="@+id/tv_web"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_web"
+        android:layout_marginLeft="@dimen/size_60_px"
+        android:layout_marginTop="@dimen/size_64_px"
+        android:text="地址:  厦门市思明区洪莲西二路1406"
+        android:textColor="#4d4d4d"
+        android:textSize="@dimen/text_48_px" />
+
+</RelativeLayout>

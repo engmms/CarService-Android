@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/android_jiake/!svn/ver/65/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment
+END
+GetOrderFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android_jiake/!svn/ver/42/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/GetOrderFragment.java
+END
+ChatFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android_jiake/!svn/ver/28/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/ChatFragment.java
+END
+MyOrderFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android_jiake/!svn/ver/42/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/MyOrderFragment.java
+END
+MyItemFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android_jiake/!svn/ver/65/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/MyItemFragment.java
+END
+PersonalCenterFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android_jiake/!svn/ver/54/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/PersonalCenterFragment.java
+END
+HomePageFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android_jiake/!svn/ver/50/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/HomePageFragment.java
+END
+EvaluateToFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android_jiake/!svn/ver/45/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/EvaluateToFragment.java
+END
+EvaluateFromFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android_jiake/!svn/ver/45/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/merchant/fragment/EvaluateFromFragment.java
+END

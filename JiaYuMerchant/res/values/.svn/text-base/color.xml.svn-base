@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="myItemOrange">#ff805b</color>
+    <color name="mainOrange">#fe9d3c</color>
+    <color name="mainNormal">#998965</color>
+    <color name="registerCompleteBlack">#d9d9d9</color>
+    <color name="registerCompleteNormal">#ff8000</color>
+	<color name="itemchoiceText">#4d4d4d</color>
+	<color name="itemchoiceButton">#ff805b</color>
+	<color name="itemchoiceWord">#ff8000</color>
+    <color name="userInfoBtOriginal">#fdf5e8</color>
+    <color name="userInfoBtPress">#e5dfd5</color>
+    <color name="loginOriginal">#ff2016</color>
+    <color name="loginPress">#d20900</color>
+
+</resources>

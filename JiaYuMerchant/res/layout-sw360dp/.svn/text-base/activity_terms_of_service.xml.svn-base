@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruhoon.jiayu.merchant.aboutjiayu.TermsOfServiceActivity"
+    tools:ignore="MergeRootFrame" >
+   <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_140_px" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="服务条款"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_back_term"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+    </RelativeLayout>
+ 
+
+
+    <WebView
+        android:id="@+id/wv_term"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title" />
+ 
+
+</RelativeLayout>

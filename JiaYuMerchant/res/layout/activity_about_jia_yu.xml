@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5eee3"
+    tools:context="com.ruhoon.jiayu.merchant.aboutjiayu.AboutJiaYuActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_140_px" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="关于驾遇"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_about_back"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_405_px"
+        android:layout_below="@+id/rl_title" >
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/size_167_px"
+            android:layout_height="@dimen/size_187_px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_85_px"
+            android:background="@drawable/about_jiayu_logo" />
+
+        <TextView
+            android:id="@+id/tv_jiayu_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/size_46_px"
+            android:text="驾遇  Caryu 1.0"
+            android:textColor="#808080"
+            android:textSize="@dimen/text_54_px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_logo" >
+
+        <Button
+            android:id="@+id/bt_virson"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_149_px"
+            android:background="#fdf5e8"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size_35_px"
+            android:text="版本更新"
+            android:textColor="#807254"
+            android:textSize="@dimen/text_50_px" />
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1_px"
+            android:layout_below="@+id/bt_virson"
+            android:background="@drawable/line_about_bg" />
+
+        <Button
+            android:id="@+id/bt_servicerTerm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_149_px"
+            android:layout_below="@+id/line1"
+            android:background="#fdf5e8"
+            android:drawableRight="@drawable/bt_about_right"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size_35_px"
+            android:paddingRight="@dimen/size_50_px"
+            android:text="服务条款"
+            android:textColor="#807254"
+            android:textSize="@dimen/text_50_px" />
+
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1_px"
+            android:layout_below="@+id/bt_servicerTerm"
+            android:background="@drawable/line_about_bg" />
+
+        <Button
+            android:id="@+id/bt_contactUs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_149_px"
+            android:layout_below="@+id/line2"
+            android:background="#fdf5e8"
+            android:drawableRight="@drawable/bt_about_right"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size_35_px"
+            android:paddingRight="@dimen/size_50_px"
+            android:text="联系我们"
+            android:textColor="#807254"
+            android:textSize="@dimen/text_50_px" />
+
+        <ImageView
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1_px"
+            android:layout_below="@+id/bt_contactUs"
+            android:background="@drawable/line_about_bg" />
+
+        <Button
+            android:id="@+id/bt_fackBack"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_149_px"
+            android:layout_below="@+id/line3"
+            android:background="#fdf5e8"
+            android:drawableRight="@drawable/bt_about_right"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size_35_px"
+            android:paddingRight="@dimen/size_50_px"
+            android:text="意见反馈"
+            android:textColor="#807254"
+            android:textSize="@dimen/text_50_px" />
+    </RelativeLayout>
+
+</RelativeLayout>

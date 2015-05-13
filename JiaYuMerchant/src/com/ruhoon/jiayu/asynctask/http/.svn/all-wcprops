@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/android_jiake/!svn/ver/31/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/asynctask/http
+END
+HttpHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/android_jiake/!svn/ver/31/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/asynctask/http/HttpHelper.java
+END
+MultipartFormEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android_jiake/!svn/ver/31/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/asynctask/http/MultipartFormEntity.java
+END
+RequestEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/android_jiake/!svn/ver/31/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/asynctask/http/RequestEntity.java
+END
+ResponseJsonEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android_jiake/!svn/ver/31/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/asynctask/http/ResponseJsonEntity.java
+END
+JsonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/android_jiake/!svn/ver/31/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/asynctask/http/JsonUtil.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/android_jiake/!svn/ver/31/JiaKeMechantApp2/JiaYuMerchant/src/com/ruhoon/jiayu/asynctask/http/Constants.java
+END

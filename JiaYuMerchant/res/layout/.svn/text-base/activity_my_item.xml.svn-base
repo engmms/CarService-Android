@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5eee3"
+    tools:context="com.ruhoon.jiayu.merchant.activity.item.MyItemActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="我的项目"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_back_myItem"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+
+        <Button
+            android:id="@+id/bt_addItem"
+            android:layout_width="@dimen/size_60_px"
+            android:layout_height="@dimen/size_60_px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_44_px"
+            android:background="@drawable/btn_add_item" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_135_px"
+        android:layout_below="@+id/rl_title"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_my_bueaty"
+            android:layout_width="@dimen/size_233_px"
+            android:layout_height="@dimen/size_101_px"
+            android:layout_marginLeft="@dimen/size_34_px"
+            android:layout_marginTop="@dimen/size_14_px"
+            android:layout_weight="1"
+            android:background="@drawable/bt_my_beauty"
+            android:text="美容"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_51_px" />
+
+        <Button
+            android:id="@+id/bt_my_decorate"
+            android:layout_width="@dimen/size_233_px"
+            android:layout_height="@dimen/size_101_px"
+            android:layout_marginTop="@dimen/size_14_px"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="装饰"
+            android:textColor="#ff805b"
+            android:textSize="@dimen/text_51_px" />
+
+        <Button
+            android:id="@+id/bt_my_repair"
+            android:layout_width="@dimen/size_233_px"
+            android:layout_height="@dimen/size_101_px"
+            android:layout_marginTop="@dimen/size_14_px"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="维修"
+            android:textColor="#ff805b"
+            android:textSize="@dimen/text_51_px" />
+
+        <Button
+            android:id="@+id/bt_my_refit"
+            android:layout_width="@dimen/size_233_px"
+            android:layout_height="@dimen/size_101_px"
+            android:layout_marginRight="@dimen/size_34_px"
+            android:layout_marginTop="@dimen/size_14_px"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="改装"
+            android:textColor="#ff805b"
+            android:textSize="@dimen/text_51_px" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_myItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_button" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,254 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf5e8"
+    tools:context="com.ruhoon.jiayu.merchant.activity.getorder.AlreadyOfferDetailActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_140_px"
+            android:background="#ff805b"
+            android:text="需求详情"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_54_px" />
+
+        <Button
+            android:id="@+id/bt_back_QuotedDetail"
+            android:layout_width="@dimen/size_123_px"
+            android:layout_height="@dimen/size_140_px"
+            android:background="@drawable/bt_forgotpassword_back" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_title" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/rl_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.ruhoon.jiayu.merchant.widgts.CircleImageView
+                    android:id="@+id/QuotedHeader"
+                    android:layout_width="@dimen/size_202_px"
+                    android:layout_height="@dimen/size_202_px"
+                    android:layout_marginLeft="@dimen/size_34_px"
+                    android:layout_marginTop="@dimen/size_36_px"
+                    android:background="@drawable/header_bg" >
+                </com.ruhoon.jiayu.merchant.widgts.CircleImageView>
+
+                <RelativeLayout
+                    android:id="@+id/rl_infotext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_32_px"
+                    android:layout_toRightOf="@+id/QuotedHeader" >
+
+                    <TextView
+                        android:id="@+id/tv_quotedDetail_nick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/size_68_px"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="车主昵称"
+                        android:textColor="#fe9d3c"
+                        android:textSize="@dimen/text_54_px" />
+
+                    <TextView
+                        android:id="@+id/tv_quotedDetail_car"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_quotedDetail_nick"
+                        android:layout_marginTop="@dimen/size_42_px"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:text="奔驰"
+                        android:textColor="#4d4d4d"
+                        android:textSize="@dimen/text_40_px" />
+
+                    <TextView
+                        android:id="@+id/tv_quotedDetail_distance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_quotedDetail_car"
+                        android:layout_marginTop="@dimen/size_30_px"
+                        android:text="距离:2公里"
+                        android:textColor="#4d4d4d"
+                        android:textSize="@dimen/text_40_px" />
+
+                    <TextView
+                        android:id="@+id/tv_unquoteDetail_getTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_quotedDetail_distance"
+                        android:layout_marginTop="@dimen/size_30_px"
+                        android:text="到店时间:2014-11-11  09:30"
+                        android:textColor="#fe9d3c"
+                        android:textSize="@dimen/text_40_px" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_unquotedDetail_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1_px"
+                android:layout_below="@+id/rl_info"
+                android:layout_marginTop="@dimen/size_34_px"
+                android:background="#d1ba86" />
+
+            <ImageView
+                android:id="@+id/iv_high_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_34_px"
+                android:layout_below="@+id/iv_unquotedDetail_line"
+                android:background="#f5eee3" />
+
+            <TableLayout
+                android:id="@+id/tl_quotedDetail_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_high_line" >
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/iv_high_line2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_34_px"
+                android:layout_below="@+id/tl_quotedDetail_table"
+                android:background="#f5eee3" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_high_line2"
+                android:layout_marginLeft="@dimen/size_34_px"
+                android:layout_marginTop="@dimen/size_32_px"
+                android:text="车主留言"
+                android:textColor="#fd8711"
+                android:textSize="@dimen/text_50_px" />
+
+            <TextView
+                android:id="@+id/tv_QuoteduserNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_marginLeft="@dimen/size_94_px"
+                android:layout_marginRight="@dimen/size_34_px"
+                android:layout_marginTop="@dimen/size_36_px"
+                android:text="汽车工作看似简单"
+                android:textColor="#666666"
+                android:textSize="@dimen/text_46_px" />
+
+            <RelativeLayout
+                android:id="@+id/ll_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_QuoteduserNote"
+                android:layout_marginLeft="@dimen/size_94_px"
+                android:layout_marginRight="@dimen/size_34_px"
+                android:layout_marginTop="@dimen/size_52_px"
+                android:orientation="horizontal" >
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/quotedImageOne"
+                    android:layout_width="@dimen/size_310_px"
+                    android:layout_height="@dimen/size_310_px"
+                    android:layout_marginRight="@dimen/size_8_px"
+                    android:layout_toLeftOf="@+id/quotedImageTwo" />
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/quotedImageTwo"
+                    android:layout_width="@dimen/size_310_px"
+                    android:layout_height="@dimen/size_310_px"
+                    android:layout_centerHorizontal="true" />
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/quotedImageThree"
+                    android:layout_width="@dimen/size_310_px"
+                    android:layout_height="@dimen/size_310_px"
+                    android:layout_marginLeft="@dimen/size_8_px"
+                    android:layout_toRightOf="@+id/quotedImageTwo" />
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/quotedImageFour"
+                    android:layout_width="@dimen/size_310_px"
+                    android:layout_height="@dimen/size_310_px"
+                    android:layout_alignLeft="@+id/quotedImageOne"
+                    android:layout_below="@+id/quotedImageOne"
+                    android:layout_marginTop="@dimen/size_8_px" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_image"
+                android:layout_marginLeft="@dimen/size_34_px"
+                android:layout_marginTop="@dimen/size_34_px"
+                android:text="商家留言"
+                android:textColor="#fd8711"
+                android:textSize="@dimen/text_50_px" />
+
+            <EditText
+                android:id="@+id/et_MerchantNote"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_294_px"
+                android:layout_below="@+id/textM"
+                android:layout_marginLeft="@dimen/size_34_px"
+                android:layout_marginRight="@dimen/size_34_px"
+                android:layout_marginTop="@dimen/size_14_px"
+                android:background="@drawable/unquote_detail_etborder" />
+
+            <RelativeLayout
+                android:id="@+id/rl_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_MerchantNote"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/size_72_px" >
+
+                <Button
+                    android:id="@+id/bt_quoteOk"
+                    android:layout_width="@dimen/size_338_px"
+                    android:layout_height="@dimen/size_134_px"
+                    android:background="@drawable/bt_unquotedetail_quoteok_border"
+                    android:text="重新报价"
+                    android:textColor="#ff8000"
+                    android:textSize="@dimen/text_64_px" />
+
+                <Button
+                    android:id="@+id/bt_quoteCancel"
+                    android:layout_width="@dimen/size_338_px"
+                    android:layout_height="@dimen/size_134_px"
+                    android:layout_marginLeft="@dimen/size_136_px"
+                    android:layout_toRightOf="@+id/bt_quoteOk"
+                    android:background="@drawable/bt_unquotedetail_cancel"
+                    android:text="撤销报价"
+                    android:textColor="#fd7272"
+                    android:textSize="@dimen/text_64_px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_143_px"
+                android:layout_below="@+id/rl_button" >
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

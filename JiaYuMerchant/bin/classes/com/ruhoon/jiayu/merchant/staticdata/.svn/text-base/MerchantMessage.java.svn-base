@@ -1,0 +1,63 @@
+package com.ruhoon.jiayu.merchant.staticdata;
+
+public class MerchantMessage {
+
+	public static final String CODE_1 = "请输入账号";
+	public static final String CODE_2 = "请输入注册手机号码";
+	public static final String CODE_3 = "输入的手机号不存在";
+	public static final String CODE_4 = "密码不可为空";
+	public static final String CODE_5 = "请输入6~16位数字和字母的密码";
+	public static final String CODE_6 = "您输入的密码有误";
+	public static final String CODE_7 = "您的账号尚未激活，请联系驾客客服";
+	public static final String CODE_8 = "验证码不正确，新重新获取新的验证码";
+	public static final String CODE_9 = "两次输入的密码不一致";
+	public static final String CODE_10 = "密码修改成功";
+	public static final String CODE_11 = "注册成功";
+	public static final String CODE_101 = "您还没有填写项目价格";
+	public static final String CODE_102 = "您还没有填写服务用时";
+	public static final String CODE_103 = "项目添加成功";
+	public static final String CODE_104 = "项目修改成功";
+	public static final String CODE_201 = "报价成功";
+	public static final String CODE_301 = "活动标题未填写";
+	public static final String CODE_302 = "尚未选择项目";
+	public static final String CODE_303 = "尚未填写支持车型";
+	public static final String CODE_304 = "尚未填写服务用时";
+	public static final String CODE_305 = "尚未输入原价";
+	public static final String CODE_306 = "尚未输入现价";
+	public static final String CODE_307 = "现价必须低于原价";
+	public static final String CODE_308 = "尚未输入活动数量";
+	public static final String CODE_309 = "尚未输入活动上架时间";
+	public static final String CODE_310 = "尚未输入活动下架时间";
+	public static final String CODE_311 = "尚未输入活动开始有效期";
+	public static final String CODE_312 = "尚未输入活动结束有效期";
+	public static final String CODE_313 = "尚未输入使用日期限制";
+	public static final String CODE_314 = "尚未填写是否需要预约";
+	public static final String CODE_315 = "至少请提交一张活动图片";
+	public static final String CODE_316 = "活动申请提交成功，请耐心等待审核";
+	public static final String CODE_401 = "请填写违约信息";
+	public static final String CODE_402 = "尚未到达服务开始时间，无法确定车主违约";
+	public static final String CODE_403 = "您尚未填写评价内容";
+	public static final String CODE_404 = "您尚未选择评价星级";
+	public static final String CODE_501 = "电话填写错误";
+	public static final String CODE_502 = "您还没添加商家地址";
+	public static final String CODE_503 = "营业时间少于6个小时";
+	public static final String CODE_504 = "商家简介不能少于50个字";
+	public static final String CODE_505 = "保存成功";
+	public static final String CODE_506 = "手机号码错误";
+	public static final String CODE_507 = "请输入正确的验证码";
+	public static final String CODE_508 = "此手机号码正在使用";
+	public static final String CODE_509 = "修改成功";
+	public static final String CODE_510 = "密码错误";
+	public static final String CODE_511 = "请输入6~16位数字和字母的密码";
+	public static final String CODE_512 = "两次密码不一致";
+	public static final String CODE_513 = "请输入您收到的验证码";
+	public static final String CODE_514 = "请输入少于200格字";
+	public static final String CODE_515 = "亲，建议是不为空哦!";
+	public static final String CODE_516 = "么么哒，感谢您的建议！";
+	public static final String CODE_517 = "请输入11位手机号";
+	public static final String CODE_518 = "手机号码修改成功";
+	public static final String CODE_519 = "亲!验证码不为空";
+
+	public static final String CODE_800 = "您未连接网络";
+	public static final String CODE_801 = "请先登录";
+}
